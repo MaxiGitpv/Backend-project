@@ -26,7 +26,7 @@ dotenv.config();
       isGlobal: true, 
     }),
 
-    MongooseModule.forRoot("mongodb://localhost/MaxmovieDB"),
+    MongooseModule.forRoot("mongodb+srv://mmaximoinfo:JkybXUPdigiKgMYO@app-cgsclauter.zgc48.mongodb.net/?retryWrites=true&w=majority&appName=APP-CGSClauter"),
     HttpModule,
     AuthModule,
     MoviesModule,
